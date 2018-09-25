@@ -1,0 +1,138 @@
+
+/*左侧树结构*/
+.page-content .zTreeDemoBackground{
+	background:#fff;
+}
+.zTreeDemoBackground{
+	background:#F9FAFC;
+	width:20%;
+	height:100%;
+	border-right: 1px dotted #DCE1E6;
+	border-radius: 4px 0 0 4px;
+}
+#treeDemo a,#treeDemo1 a{
+	height:30px!important;
+	line-height: 30px!important;
+	width:100%;
+	/*padding:4px 0;*/
+}
+.ztree li span.button.ico_open {
+    margin-top: 8px;
+}
+#treeDemo .node_name{
+	display: inline-block;
+	width:85%;
+	height:100%;
+}
+/*#treeDemo>li>ul>li>a .node_name{
+	display: inline-block;
+	width:80%;
+	height:100%;
+}
+#treeDemo>li>ul>li>ul>li>a .node_name{
+	display: inline-block;
+	width:80%;
+	height:100%;
+}*/
+#treeDemo1 li a:nth-child(2){
+	display:none;
+}
+.ztree li ul {
+    margin: 0;
+}
+.ztree{
+	padding:0;
+}
+.ztree a{
+	position:relative;
+}
+.ztree li span.button.root_open,.ztree li span.button.roots_open,.ztree li span.button.bottom_open,.ztree li span.button.center_open {
+    background-image: url(../zTreeStyle/img/dropdown_arrow_down.png);
+}
+.ztree li span.button.root_close,.ztree li span.button.roots_close,.ztree li span.button.bottom_close,.ztree li span.button.center_close {
+   background-image: url(../zTreeStyle/img/dropdown_arrow_left.png);
+}
+.ztree li span.button {
+    vertical-align: -9px;
+}
+.ztree li a.curSelectedNode {
+    background-color: #335884;
+    color:#fff;
+    border: none;
+}
+.ztree li a.curSelectedNode:hover {
+    background-color: #335884;
+    color:#fff;
+    border: none;
+}
+.ztree li a:hover{
+	background: #edf1f5;
+	color:#000;
+	text-decoration: none;
+}
+.ztree li span.button.switch {
+    margin-left:5px;
+}
+.ztree li ul {
+   padding: 0;
+}
+.ztree li ul a:first-child{
+    width:100%!important;
+    padding: 0px 0 0px 18px!important;
+    height:30px;
+    line-height: 30px; 
+} 
+.ztree li ul li ul li a:first-child{
+    width:100%!important;
+    padding: 0px 0 0px 37px!important; 
+}
+.ztree li ul li ul li ul li a:first-child{
+    width:100%!important;
+    padding: 0px 0 0px 57px!important; 
+}
+.ztree li ul li ul li ul li ul li a:first-child{
+    width:100%!important;
+    padding: 0px 0 0px 77px!important; 
+}
+.ztree li ul li ul li ul li ul li ul li a:first-child{
+    width:100%!important;
+    padding: 0px 0 0px 97px!important; 
+}
+#rMenu ul{
+	/*text-align: justify;*/
+    /*text-align-last: justify;*/
+    padding:0;
+}
+#rMenu {
+	padding:5px 0;
+	border-radius: 2px!important;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(0,0,0,.3);
+    box-shadow: 0 1px 6px 0 rgba(0,0,0,.3);
+	right:-64px;
+	z-index:10;
+	position:absolute;
+	/*display:none;*/
+	top:25px;
+	background-color: #fff;
+	text-align: left;
+	/*behavior: url(../../assets/border/PIE.htc)!important;*/
+	border:1px solid #ccc;
+}
+#rMenu ul li{
+	color:#333;
+	padding: 4px 8px;
+	cursor: pointer;
+	list-style: none outside none;
+	background-color: #fff;
+}
+#rMenu ul li:hover,.dropdown-menu1 li:hover{
+	background-color: #335884;
+	color:#fff;
+	cursor: pointer;
+}
+.search-box{
+	border-bottom:1px solid #E4E6E9;
+	padding:10px;
+	/*position:relative;*/
+}
+
